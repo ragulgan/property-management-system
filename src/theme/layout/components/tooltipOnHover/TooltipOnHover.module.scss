@@ -1,0 +1,26 @@
+.tooltipOnHover {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltipOnHover .tooltiptext {
+    visibility: hidden;
+    width: fit-content;
+    background-color: rgba(17, 14, 14, 0.685);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: 12px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    padding: 5px;
+  }
+  
+  .tooltipOnHover:hover .tooltiptext {
+    visibility: visible;
+  }
